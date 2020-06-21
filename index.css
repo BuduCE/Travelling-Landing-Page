@@ -4,7 +4,6 @@
 .neck{
     display: block;
     text-align: center;
-    background-image: url("overhead_bridge.png");
 }
 /*img{
     width: 300px;
@@ -24,6 +23,7 @@
 }
 .copyright{
     color: white;
+    text-align: center;
 }
 .link a{
     color: white;
