@@ -1,0 +1,37 @@
+.page-header a{
+    color: black;
+}
+.neck{
+    display: block;
+    text-align: center;
+    background-image: url("overhead_bridge.png");
+}
+/*img{
+    width: 300px;
+}*/
+.share{
+    text-align: center;
+}
+.btn-default{
+    background-color: rgb(235, 164, 32);
+    color: white;
+}
+.carousel-caption p{
+    vertical-align: center;
+}
+.foot{
+    background-color: rgb(56, 51, 51);
+}
+.copyright{
+    color: white;
+}
+.link a{
+    color: white;
+}
+.link:hover a{
+    color: grey;
+    text-decoration: none;
+}
+.float-lg-right{
+    justify-content: space-between;
+}
