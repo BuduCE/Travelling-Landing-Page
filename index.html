@@ -97,29 +97,48 @@
 
         -->
     <div class="container">
-        <div class="row pt-5">
-            <div class="col">
+        <!--First part of the container, it has a large screen version and a smaller screen version-->
+
+        <!--For larger screens-->
+        <div class="row pt-5 one">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <p style="color: rgb(235, 164, 32);">#TRAVELTIP</p>
                 <h1>How to explore<br>Atlanta in 2 days?</h1>
                 <p>+ 1k view</p>
 
                 <!--style="margin-top: 40%;"-->
 
-                <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, optio asperiores tenetur earum saepe consequuntur aut harum adipisci porro rerum assumenda quas possimus accusantium, repellendus enim nesciunt fugit vel dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores amet iure expedita eius consequuntur veniam, quod culpa rerum vitae laboriosam repudiandae, debitis, harum suscipit ipsa praesentium ea quis sapiente?</p><br>
-                <a href="#" class="btn btn-default btn-sm" role="button"><b>READ MORE</b></a>
+                <p style="margin-top: 100px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, optio asperiores tenetur earum saepe consequuntur aut harum adipisci porro rerum assumenda quas possimus accusantium, repellendus enim nesciunt fugit vel dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores amet iure expedita eius consequuntur veniam, quod culpa rerum vitae laboriosam repudiandae, debitis, harum suscipit ipsa praesentium ea quis sapiente?</p><br>
+                <a href="#" class="btn btn-default btn-sm pd-3" role="button"><b>READ MORE</b></a>
             </div>
-            <div class="col">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <img class="img-fluid" src="city.png" style="max-width: 100%; height: auto;">
             </div>
         </div>
-        <div class="row pt-5"><!--col-->
-            <div class="col-lg-3 col-md-3 col-sm-12 p-4">
+        <!--For smaller screen-->
+        <div class="row pt-5 one1">
+            <div class="col-sm-12">
+                <p style="color: rgb(235, 164, 32);">#TRAVELTIP</p>
+                <h1>How to<br>explore<br>Atlanta in<br> 2 days?</h1>
+                <p>+ 1k view</p>
+
+                <img class="img-fluid" src="city.png" style="max-width: 100%; height: auto;">
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, optio asperiores tenetur earum saepe consequuntur aut harum adipisci porro rerum assumenda quas possimus accusantium, repellendus enim nesciunt fugit vel dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores amet iure expedita eius consequuntur veniam, quod culpa rerum vitae laboriosam repudiandae, debitis, harum suscipit ipsa praesentium ea quis sapiente?</p><br>
+                <a href="#" class="btn btn-default btn-sm" role="button"><b>READ MORE</b></a>
+            </div>
+        </div>
+
+
+        <!--Second section of the container, the order for large and smaller screens are different-->
+        <div class="row pt-5 wrapper">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-4 three1">
                 <div class="container image">
                     <img class="img-fluid" src="flower.png" style="max-width: 100%; height: auto;">
                     <div class="centered"><h4>Garden</h4></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 p-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-4 three2">
                 <div class="container image">    
                     <img class="img-fluid" src="water_fall.png" style="max-width: 100%; height: auto;">
                     <div class="centered"><h4>Water Fall</h4></div>
@@ -139,24 +158,47 @@
                 </div>
             </div>
         </div>
-        <div class="row pt-5">
-            <div class="col">
+
+
+        <!--Third section of the container-->
+        <!--For larger screen-->
+        <div class="row pt-5 four">
+            <div class="col-lg-8 col-md-8">
                 <h1>Enjoy an exciting<br>your trip</h1><br>
                 <div class="container image">
-                    <img class="img-fluid" src="london.png" style="width: 100%; height: auto; position: relative;">
+                    <img class="img-fluid" src="london.png" style="width: 100%; height: 500%; position: relative;">
                     <div class="bottom-left"><h5>London</h5><br><P>+1k visitor</P></div>
                     <div class="bottom-right"><P>$250,000</P></div>
+                    <div class="overlay"></div>
                 </div>
             </div>
                 
-                <div class="col">
+                <div class="col mt-5">
                     <a href="#" class="btn btn-default btn-sm pt-10" role="button">VIEW ALL</a><br>
                     <img class="img-fluid pt-5" src="califonia.png" style="max-width: 100%; height: auto;">
                 </div>
         </div>
+
+        <!--For smaller screen-->
+        <div class="row pt-5 four4">
+            <div class="col">
+                <h1 style="padding-bottom: 2px;">Enjoy an<br>exciting<br>your trip</h1><br>
+                <div class="container image">
+                    <img class="img-fluid london" src="london.png" style="width: 100%; position: relative;">
+                    <div class="bottom-left"><h5>London</h5><br><P>+1k visitor<br>$250,000</P></div>
+                    <div class="overlay"></div>
+                </div>
+                <a href="#" class="btn btn-default btn-sm mt-3" role="button">VIEW ALL</a>
+            </div>  
+        </div>
+
+
         <div class="row share pt-5">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h4>Share your story</h4>
+                <!--For larger screens-->
+                <h4 class="five">Share your story</h4>
+                <!--For smaller screens-->
+                <h4 class="five5">Share your<br>story</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nisi, iusto veritatis esse, nesciunt debitis eligendi dolores possimus provident consectetur voluptas voluptatum eveniet blanditiis. Blanditiis sequi dicta aut unde alias?</p>
 
                 <!--Google map-->
@@ -168,59 +210,22 @@
   <!--Google Maps-->
         </div>
         <div class="row pt-5">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col">
                 <h1 style="text-align: left;">What the final<br>word</h1>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <img src="girl.png">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <p style="text-align: left;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa rerum at omnis numquam, obcaecati neque commodi non dolorum est nihil maxime quaerat eaque perferendis, eum fugit? Perferendis soluta velit eos.</p><br>
-                <p style="text-align: left;"><b>Bill Precious</b><br>Visitor</p>
+            <div class="col">
+                <p style="text-align: left;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa rerum at omnis numquam, obcaecati neque commodi non dolorum est nihil maxime quaerat eaque perferendis, eum fugit? Perferendis soluta velit eos. <br><br><b>Bill Precious</b><br>Visitor</p>
             </div>
         </div>
     </div>
-    <footer class="page-footer">
-            <div class="float-left copyright">
-                <p style="color: white;">copyright Budu</p>
+    <div class="page-footer font-small grey">
+            <div class="footer-copyright text-center py-3">
+                <p style="color: white;">copyright <span style="color: rgb(235, 164, 32);">Zu</span>Travel</p>
             </div>
-            <!--<div class="float-lg-right float-md-left">
-                <ul class="link" style="display: flex;">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Stories</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>-->
-            </div>
-    </footer>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" href="#"><span style="color: rgb(235, 164, 32);">Zu</span>Travel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Stories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Book</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
+    </div>
 
 
 
