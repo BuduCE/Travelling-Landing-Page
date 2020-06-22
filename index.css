@@ -26,6 +26,9 @@
     .six{
         display: none;
     }
+    .x{
+        display: none;
+    }
 }
 
 @media(min-width: 576px){
@@ -47,6 +50,9 @@
         display:none;
     }
     .six6{
+        display: none;
+    }
+    x1{
         display: none;
     }
 }
