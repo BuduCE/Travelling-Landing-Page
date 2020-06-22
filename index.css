@@ -23,6 +23,9 @@
     .five{
         display: none;
     }
+    .six{
+        display: none;
+    }
 }
 
 @media(min-width: 576px){
@@ -42,6 +45,9 @@
     }
     .five5{
         display:none;
+    }
+    .six6{
+        display: none;
     }
 }
 
