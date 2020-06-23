@@ -26,9 +26,92 @@
     .six{
         display: none;
     }
-    .x{
+    .xoxo{
         display: none;
     }
+    .page-header a{
+        color: black;
+    }
+    .neck{
+        display: block;
+        text-align: center;
+    }
+    .share{
+        text-align: center;
+    }
+    .btn-default{
+        background-color: rgb(235, 164, 32);
+        color: white;
+    }
+    .carousel-caption p{
+        vertical-align: center;
+    }
+    .page-footer{
+        background-color: rgb(56, 51, 51);
+    }
+    .link a{
+        color: white;
+    }
+    .link:hover a{
+        color: grey;
+        text-decoration: none;
+    }
+    .float-lg-right{
+        justify-content: space-between;
+    }
+    .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+    .map-container iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    .image{
+        /* Container holding the image and the text */
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bt{
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgb(235, 164, 32);
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+       /* border-radius: 5px;*/
+        text-align: center;
+    }
+    .bt:hover {
+        background-color: grey;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 40px;
+        left: 70px;
+    }
+    .bottom-right {
+        position: absolute;
+        bottom: 25px;
+        right: 140px;
+      }
 }
 
 @media(min-width: 576px){
@@ -52,95 +135,92 @@
     .six6{
         display: none;
     }
-    x1{
+    .xoxo1{
         display: none;
     }
-}
-
-
-.page-header a{
-    color: black;
-}
-.neck{
-    display: block;
-    text-align: center;
-}
-/*img{
-    width: 300px;
-}*/
-.share{
-    text-align: center;
-}
-.btn-default{
-    background-color: rgb(235, 164, 32);
-    color: white;
-}
-.carousel-caption p{
-    vertical-align: center;
-}
-.page-footer{
-    background-color: rgb(56, 51, 51);
-}
-.link a{
-    color: white;
-}
-.link:hover a{
-    color: grey;
-    text-decoration: none;
-}
-.float-lg-right{
-    justify-content: space-between;
-}
-.map-container{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    .page-header a{
+        color: black;
     }
-.map-container iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    .neck{
+        display: block;
+        text-align: center;
+    }
+    .share{
+        text-align: center;
+    }
+    .btn-default{
+        background-color: rgb(235, 164, 32);
+        color: white;
+    }
+    .carousel-caption p{
+        vertical-align: center;
+    }
+    .page-footer{
+        background-color: rgb(56, 51, 51);
+    }
+    .link a{
+        color: white;
+    }
+    .link:hover a{
+        color: grey;
+        text-decoration: none;
+    }
+    .float-lg-right{
+        justify-content: space-between;
+    }
+    .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+    .map-container iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    .image{
+        /* Container holding the image and the text */
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bt{
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgb(235, 164, 32);
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+       /* border-radius: 5px;*/
+        text-align: center;
+    }
+    .bt:hover {
+        background-color: grey;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 40px;
+        left: 70px;
+    }
+    .bottom-right {
+        position: absolute;
+        bottom: 25px;
+        right: 140px;
+      }
 }
-.image{
-    /* Container holding the image and the text */
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.bt{
-    position: absolute;
-    top: 98%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: rgb(235, 164, 32);
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-   /* border-radius: 5px;*/
-    text-align: center;
-}
-.bt:hover {
-    background-color: grey;
-}
-.bottom-left {
-    position: absolute;
-    bottom: 40px;
-    left: 70px;
-}
-.bottom-right {
-    position: absolute;
-    bottom: 25px;
-    right: 140px;
-  }
+
+
